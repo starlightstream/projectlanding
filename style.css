@@ -12,8 +12,11 @@ body {
     background-color: #1F2937;
     color: white;
     margin: 0%;
-    padding-left: 100px;
-    padding-right: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex: 1;
+    display: flex;
+
 }
 
 .header {
@@ -21,14 +24,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
-    margin-bottom: 100px;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    color: #e5e5e5;
+    
 
 }
 .right-links a {
     display: block;
     text-decoration: none;
-    padding: 16px 18px;
+    padding: 10px 16px;
+    border-radius: 8px;
     color: #F9FAF8;
+    
 }
 
 .right-links a:hover {
@@ -39,13 +50,12 @@ body {
     display: inline-block;
     font-family:Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
-    text-align:start;
     color: #F9FAF8;
     flex:1;
-    margin-left:auto;
-    margin-right:auto;
-    justify-content:center;
-    
+    padding-right: 100px;
+    padding-bottom: 200px;
+    background-color: #1F2937;
+
 
 }
 
@@ -59,7 +69,14 @@ body {
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
-    margin: 20px;
+    margin-left: 0%;
+    margin-bottom: 120px;
+}
+
+#picture {
+    display: inline;
+    margin-left: 0;
+
 }
 
 .title {
@@ -67,7 +84,10 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     justify-content: center;
     align-items: center;
+    margin: 0%;
+    padding: 0%;
 }
+
 .container {
     display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -76,10 +96,20 @@ body {
     align-items: center;
     text-align: center;
     gap: 50px;
+    margin: 0%;
+    padding: 0%;
 }
 .section {
     max-width: 200px;
+    position:initial;
 }
+
+
+img {
+    border-radius: 8px;   
+}
+
+
 .quote {
     display: flex;
     justify-content: center;
@@ -93,14 +123,14 @@ body {
 
 }
 
-.text {
+.text1 {
     display: flex;
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
-    background-color: E5E7EB;
+    background: color #e5e5e5;
+    margin: 150px;
     
-
 }
 
 .container2 {
@@ -108,7 +138,6 @@ body {
     flex-wrap: wrap;
     background-color: #3882F6;
     color: white;
-    justify-content: center;
     margin-bottom: 60px;
     margin-left: 120px;
     margin-right: 120px;
@@ -119,15 +148,19 @@ body {
     border-radius: 8px;
 }
 
+.text2 {
+
+}
+
 .button2 {
     color: white;
     background-color: #3882F6;
     border-radius: 8px;
     border: 2px solid white;
     padding: 10px 30px;
-    margin: 10px;
     text-align: center;
     display: inline-block;
+   
 }
 
 .footer {
